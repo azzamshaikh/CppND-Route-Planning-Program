@@ -33,6 +33,12 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 ## Compiling and Running
 
 ### Compiling
+Add additional repos in the main directory:
+```
+mkdir thirdparty && cd thirdparty
+git clone https://github.com/google/googletest.git
+git clone https://github.com/zeux/pugixml.git
+```
 To compile the project, first, create a `build` directory and change to that directory:
 ```
 mkdir build && cd build
